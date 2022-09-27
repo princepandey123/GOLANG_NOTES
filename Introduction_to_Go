@@ -10,9 +10,70 @@ Features :->
    7.Golang provides support for unit testing to test the package that we create and for better understanding.
    8.Go is considered an Object-oriented programing language However , it uses structs to create user-defined types that hold just the state and not the behaviour. Structs represent a complex object and hence, there is no concept of classes.
    
+----------------------------------------------------------------------------
+
+Our First Go Program :->
+--------------------------
+package main   
+
+import "fmt"
+
+func main()
+{
+   fmt.Println("Hello World") 
+ }
+
+-------------------------------------------
+package main ==> It is an compulsory line for every go program . It serves as an entry point for executable program
+
+import "fmt"==>The import statement is a preprocessor command that imports the mentioned package into our program. ‘fmt’ stands for format and is a primary package that contains functions for formatting and printing text.
+
+func main()==>The main function marks the beginning of the execution of a program.
+
+Println is a standard library function of fmt that prints a line of text as output.
+-----------------------------------------------
+
+How is Go differnt from other languages ??
+
+1.It does not support operator and method overloading.
+2.Although it is object-oriented, it does not use the concept of classes and inheritance.
+3.It supports various forms of initialising and declaring variables. eg :-> ‘:=’ that does declare and initialise in the same statement.
+
+-------------------------------------------------
+
+Advantages: 
+1.Flexible and simple syntax.
+2.It efficiently handles concurrency allows multiple processes to run simultaneously.
+3.Its compilation and execution time is very fast.
+4.It provides a rich standard library 
+5.Garbage collection- It gives control over memory allocation and drastically reduces the burden of memory management.
+6.It is platform-independent and open source by nature
    
-   
-   
+Disadvantages :->
+1.Absence of manual memory management as it mainly implements the use of garbage collection. This may lead to overheads and reduced speed.
+2.Error handling: Go programs use functions to return an error if expected. This leads to missing useful error handling logic.
+3.Go has no generics support, which causes repetition of codes for similar operations with different data types. I.e., It does not support the concept of Templates 
+
+---------------------------------------------------------
+
+Applications of GOlang :->
+
+Popular applications built using Go.
+1.Monzo: An App-based online banking application.
+2.Dropbox: It uses Go to scale its systems in a more efficient way.
+3.Uber: A peer-to-peer ridesharing application.
+4.DailyMotion: It used Go to improve the automation of APIs.
+5.Twitch: It uses Go to maintain security, efficiency and readability.
+-------------------------------------------------------------
+
+What are packages in Go?
+Packages are directories in the Go workspace containing Go source files and libraries. All Go programs are made up of packages. A program starts by running in package main. Some examples of packages are math, strings etc.
+ 
+What are goroutines and channels?
+Goroutines are functions that run concurrently with other functions. They are lightweight threads. 
+A channel is a medium through which one goroutine communicates with another and allows data transfer between the two
+
+
    
   
    
