@@ -1,0 +1,19 @@
+most popular procedural programming languages
+
+Features :->
+   1. It has the simplicity of Python and the speed of C/C++
+   2. Go is statically typed i.e. variable data types are declared before their use
+   3. It is also a compiled language and not interpreted
+   4.Go is platform-independent.
+   5.It has standard packages and libraries. packages purpose is to design and maintain a large number of programs grouped by related features into single units.
+   6.Concurrency in Golang :-> Concurrency involves multiple sequences of operations that run in overlapping periods. Goroutines and channels deal with concurrency in Go. This helps in handling Multi-processor architecture efficiently and helps in better scaling
+   7.Golang provides support for unit testing to test the package that we create and for better understanding.
+   8.Go is considered an Object-oriented programing language However , it uses structs to create user-defined types that hold just the state and not the behaviour. Structs represent a complex object and hence, there is no concept of classes.
+   
+   
+   
+   
+   
+  
+   
+   
